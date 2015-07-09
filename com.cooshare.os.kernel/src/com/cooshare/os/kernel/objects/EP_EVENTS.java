@@ -1,0 +1,35 @@
+package com.cooshare.os.kernel.objects;
+
+public class EP_EVENTS {
+
+	public int EP_ID;
+	public int OPERATION_TYPE_ID;
+	public float TARGET;
+	public int EP_PROPERTY_ID;
+	public int ISACTIVE;
+	public String ACTIVERANGE_MIN;
+	public String ACTIVERANGE_MAX;
+	public int ACTIVERANGE_IFCONTAINBOUNDARY;
+	public int EVENT_ID;
+	public String COMMAND;
+	
+	public EP_EVENTS(){
+		
+	}
+	
+	public EP_EVENTS(int _EP_ID,int _OPERATION_TYPE_ID,float _TARGET,int _EP_PROPERTY_ID,int _ISACTIVE,String _ACTIVERANGE_MIN,String _ACTIVERANGE_MAX,int _ACTIVERANGE_IFCONTAINBOUNDARY,int _EVENT_ID,String _COMMAND)
+	{
+		this.EP_ID=_EP_ID;
+		this.OPERATION_TYPE_ID=_OPERATION_TYPE_ID;
+		this.TARGET=_TARGET;
+		this.EP_PROPERTY_ID = _EP_PROPERTY_ID;
+		this.ISACTIVE = _ISACTIVE;
+		this.ACTIVERANGE_MIN = _ACTIVERANGE_MIN;
+		this.ACTIVERANGE_MAX = _ACTIVERANGE_MAX;
+		this.ACTIVERANGE_IFCONTAINBOUNDARY = _ACTIVERANGE_IFCONTAINBOUNDARY;
+		this.EVENT_ID = _EVENT_ID;
+		this.COMMAND = _COMMAND;
+		
+	}
+	
+}

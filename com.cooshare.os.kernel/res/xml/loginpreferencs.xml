@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference android:summary="请输入您的用户名" android:key="username" android:title="用户名"></EditTextPreference>
+<EditTextPreference android:summary="请输入您的密码" android:key="password" android:title="密码"></EditTextPreference>
+</PreferenceScreen>
